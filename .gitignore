@@ -12,6 +12,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+**node_modules
 
 ### IntelliJ IDEA ###
 .idea
@@ -30,5 +31,6 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
-node_modules
+.vscode
+
+**node_modules

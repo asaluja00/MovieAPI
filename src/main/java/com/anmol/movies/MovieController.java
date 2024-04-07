@@ -25,9 +25,11 @@ public class MovieController {
     }
 
     @GetMapping("/{imdbid}")
-    public ResponseEntity<Optional<Movie>> getSingleMovie(@PathVariable String imdbid) {
+    public ResponseEntity<Optional<Movie>> getSinglemovie(@PathVariable String imdbid) {
+
         return new ResponseEntity<Optional<Movie>>(movieService.singleMovie(imdbid), HttpStatus.OK);
     }
+
 
 
 
